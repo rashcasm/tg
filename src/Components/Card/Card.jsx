@@ -3,7 +3,7 @@ import "./Card.css";
 import Button from "../Button/Button";
 function Card({ med, onAdd, onRemove }) {
   const [count, setCount] = useState(0);
-  const { title, Image, price, id } = med;
+  const { title, Image, price} = med;
 
   const handleIncrement = () => {
     setCount(count + 1);
