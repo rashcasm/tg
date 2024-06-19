@@ -2,6 +2,10 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import Card from "./Components/Card/Card";
 import Cart from "./Components/Cart/Cart";
+
+import { ConnectButton } from '@rainbow-me/rainbowkit';
+
+
 const { getData } = require("./db/db");
 const meds = getData();
 
@@ -56,6 +60,7 @@ function App() {
           );
         })}
       </div>
+      <ConnectButton label="Sign in"/>
     </>
   );
 }
