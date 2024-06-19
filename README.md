@@ -1,5 +1,4 @@
-# THIS IS THE FIRST PART OF TG-WEB-APP
-
+idk what i write, idk how to dev. NGL C++ and Competitive programming are better, but okay. (i wanna learn DEV dudeee)
 ### `npm start`
 Runs the app in the development mode.\
 The page will reload when you make changes.\
